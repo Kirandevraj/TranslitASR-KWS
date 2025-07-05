@@ -9,7 +9,7 @@
 
 - The `train.sh` script invokes the Fairseq ASR training command, using manifest files that list the transliterated Kathbath audio data required to train the Transliteration ASR model. 
 
--  Both manifest files (containing the transliterated Devanagiri text) and the trained Transliteration ASR-KWS model (`mr-pairs`) can be downloaded from [Google Drive](https://drive.google.com/file/d/1IEbKCnWjJFDEfoY5eHKmBap7A_B2sd_S/view?usp=sharing). Edit the manifest files so that the audio filepath point to your local Kathbath audio file locations.
+-  Both manifest files (containing the transliterated Devanagiri text) and the trained Transliteration ASR-KWS model (`mr-pairs`) can be downloaded from [Google Drive](https://drive.google.com/drive/folders/12hlXDW1uHe0Eakw0aaRpQLNrGAdrYpDK?usp=sharing). Edit the manifest files so that the audio filepath point to your local Kathbath audio file locations.
 
 - VAD is applied on the IndicSUPERB QbE eval audio files before evaluation.  
   ```python
